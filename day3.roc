@@ -1,7 +1,6 @@
 app "AoC"
     packages {
         pf: "https://github.com/roc-lang/basic-cli/releases/download/0.7.0/bkGby8jb0tmZYsy2hg1E_B2QrCgcSTxdUlHtETwm5m4.tar.br",
-        parser: "https://github.com/lukewilliamboswell/roc-parser/releases/download/0.2.0/dJQSsSmorujhiPNIvJKlQoI92RFIG_JQwUfIxZsCSwE.tar.br",
     }
     imports [pf.Stdout, pf.Task.{ Task }, "day-3-input.txt" as input : Str]
     provides [main] to pf
